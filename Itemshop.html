@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTROIDFN - Item Shop</title>
+    <!-- Add your CSS styles here -->
+    <style>
+        /* Style for the navigation bar */
+        .navbar {
+          background: #000; /* Black navbar background */
+          overflow: hidden;
+          position: relative; /* Set the navbar as a positioning context */
+          display: flex; /* Use flexbox to align items horizontally */
+          align-items: center; /* Vertically center items */
+        }
+
+        /* Style for the logo */
+        .logo {
+          margin-left: 20px; /* Adjust the margin as needed */
+        }
+
+        /* Style for the logo image */
+        .logo img {
+          width: 32px;
+          height: 32px;
+          margin-top: 5px; /* Adjust the margin as needed */
+        }
+
+        /* Style for the navigation links */
+        .nav-links {
+          display: flex; /* Use flexbox to align items horizontally */
+          list-style: none; /* Remove default list styles */
+          margin-left: 20px; /* Adjust spacing between links */
+        }
+
+        /* Style for individual navigation links */
+        .nav-links li {
+          margin-left: 20px; /* Adjust spacing between links */
+        }
+
+        .nav-links a {
+          color: #fff; /* Set the text color to white */
+          text-decoration: none; /* Remove underline */
+          font-family: 'MontHeavy', sans-serif; /* Use the custom font */
+          font-size: 21px; /* Adjust font size as needed */
+          transition: color 0.5s; /* Add a smooth color transition */
+        }
+
+        .nav-links a:hover {
+          text-shadow: 0 0 3px rgba(62, 98, 255, 0.8); /* Slightly less bright text glow */
+          color: #5372ff; /* Hover color */
+        }
+
+        /* Style for the body (entire page) */
+        body {
+          background: #333; /* Dark grey background for the entire page */
+          margin: 0; /* Remove default body margin */
+          padding: 0; /* Remove default body padding */
+        }
+
+        /* Style for the image */
+        .image-container img {
+          margin-top: 100px;
+          margin-left: 100px;
+          /* Adjust the top margin to move the image down */
+          box-shadow: 0 0 20px #002fff; /* Add a glowing effect with a cyan color */
+        }
+
+        /* Style for custom font */
+        @font-face {
+          font-family: 'MontHeavy';
+          src: url('./MontHeavy.otf') format('opentype'); /* Replace with the correct path to your font file */
+        }
+
+        /* Style for the settings icon */
+        .settings-icon {
+          margin-left: auto;
+          margin-right: 20px;
+        }
+
+        .settings-icon a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 24px;
+          transition: text-shadow 0.5s; /* Add a smooth text-shadow transition */
+          transition: color 0.5s;
+        }
+
+        .settings-icon a:hover {
+          text-shadow: 0 0 5px rgba(62, 98, 255, 0.8); /* Adjust text-shadow for hover effect */
+          color: #5372ff;
+        }
+      </style>
+    <!-- Include Font Awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <!-- Logo -->
+  <div class="logo">
+    <img src="./logov1.png" alt="Logo">
+  </div>
+
+  <script src="script.js"></script>
+
+  <!-- Navigation Links -->
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Downloads.html">Downloads</a></li>
+    <li><a href="Itemshop.html">Item Shop</a></li>
+  </ul>
+
+  <!-- Settings Icon -->
+  <div class="settings-icon">
+    <a href="settings.html"><i class="fas fa-cog"></i></a>
+  </div>
+</div>
+
+<!-- Image in the Middle -->
+<div class="image-container">
+  <img src="./itemshopv1.png" alt="Image">
+</div>
+
+<!-- The rest of your content goes here -->
+
+</body>
+</html>
